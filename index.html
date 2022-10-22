@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhel Ahmed - Coder Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/Portfolio.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Suhel</span><br>Ahmed From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------about----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/MyPic1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title small-text">About Me</h1>
+                    <p class="hello">Hey there, My name is Suhel Ahmed from Sohna, Gururgram. I am 22 years old.
+                        I have a degree in Bachelor of Engineering(IT) from J.C Bose University of Science and
+                        Technology.
+                        I am experienced in Software Dovelopment, UI/UX designer, DataBases,
+                        DataScience, Machine Learning, Deep Learning.
+                        sometimes I work as a freeLancer to earn money
+                        and always willing to participate with these emerging technologies to develop my skills in this
+                        field.
+                        also I am familiar with the technologies like python, Flask, Django, java sever-socket
+                        programming etc.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML,CSS,JavaScript</span><br>Web App Development</li>
+                            <li><span>C-Language</span><br>Programming with DSA</li>
+                            <li><span>Java</span><br>Java with OOP</li>
+                            <li><span>Python</span><br>Python with OOP</li>
+                            <li><span>MS Office</span><br>MS Word,MS Excel</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>Certified in Web Development</span><br>Udemy Course</li>
+                            <li><span>Certified in Java</span><br>Udemy Course</li>
+                            <li><span>Certified in IOT</span><br>NPTEL Course</li>
+                            <li><span>Certified in Training of Trainers</span><br>NPTEL Course</li>
+                            <li><span>Certified in Entrepreneurship</span><br>NPTEL Course</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech in Information Technology</span><br>J.C Bose University of Science and
+                                Technology<br>CGPA : 8.0</li>
+                            <li><span>12<sup>th</sup>Grade</span><br>Farooka Khalsa High School<br>CGPA : 8.01</li>
+                            <li><span>10<sup>th</sup>Grade</span><br>Happy Modern High school<br>CGPA : 8.2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------services----------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title small-text">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I care deeply about creating world-class, useful,
+                        and beautiful products that help people and make a difference.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I've been helping my friends plan, design, and
+                        develop their digital product ideas. And I've also designed products for college projects.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Android App</h2>
+                    <p>I have an interest in Developing the android application for cell phones.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <--------------------portfolio----------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title small-text">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png">
+                    <div class="layer">
+                        <h3>Supermarket Management Web App</h3>
+                        <p>The application helps you to manage your grocery store with faster and more efficient way.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png">
+                    <div class="layer">
+                        <h3>Java Server-client App</h3>
+                        <p>The web application connects clients to the server and allows them to request for any
+                            service.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png">
+                    <div class="layer">
+                        <h3>Online Food Ordering App</h3>
+                        <p>The app allows you to order food online and get it at your home at anytime with free
+                            delivery.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ------------------contact------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title small-text">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:suhailahmed1908@gmail.com"> suhailahmed1908@gmail.com</a></p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i><a href="tel: +919034631301"> +919034631301</a></p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="linkedin.com/in/suhail-ahmed"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/Suhel's Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Suhel💖 1999-2022 . All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyzstBlOb06saz8nmdHljJqATJxIWVhYFQddWWBB-BvNGFzIGPGVM7mecCnunAb6zvw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response =>{
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
